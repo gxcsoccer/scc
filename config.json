@@ -1,0 +1,12 @@
+{
+	"source": "/Users/xiaochengao/github/scc/test/",
+	"target": "/Users/xiaochengao/github/scc/build/",
+	"actions": {
+		"combine-modules": {
+			"entries": ["config.js"],
+			"output": "config.js",
+			"config_file": "config.js"
+		},
+		"compress": true
+	}
+}
