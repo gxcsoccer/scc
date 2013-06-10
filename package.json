@@ -1,6 +1,6 @@
 {
   "name": "scc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is a simple combo & compress tool for seajs project.",
   "main": "./scc.js",
   "directories": {
