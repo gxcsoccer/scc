@@ -1,8 +1,20 @@
 {
   "name": "scc",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "This is a simple combo & compress tool for seajs project.",
-  "main": "./lib/scc.js",
+  "main": "./scc.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "~0.6.0-1",
+    "shelljs": "~0.0.8",
+    "html-minifier": "~0.4.5",
+    "uglify-js": "~1.3.4",
+    "underscore": "~1.4.2",
+    "optimist": "~0.3.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "make test"
   },
@@ -10,10 +22,14 @@
     "type": "git",
     "url": "https://github.com/gxcsoccer/scc.git"
   },
-  "keywords": ["cc", "seajs", "combo", "compress"],
-  "dependencies": {
-    
+  "keywords": [
+    "seajs"
+  ],
+  "bin" : {
+        "scc": "./bin/scc"
   },
-  "author": "gxcsoccer",
-  "license": "MIT"
+  "author": "gxcsoccer <gxcsoccer@126.com>",
+  "license": "MIT",
+  "gitHead": "deba45acf40986dbf2fd8f8ea43b50d4dbbc490d",
+  "readmeFilename": "README.md"
 }
