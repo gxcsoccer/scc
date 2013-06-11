@@ -7,6 +7,9 @@
 			"output": "xxx.js",
 			"config_file": "config.js"
 		},
+		"copy": {
+			"input": ["./lib/sea-debug.js", "test.html"]
+		}
 		//"compress": true
 	}
 }
