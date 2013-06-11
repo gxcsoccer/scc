@@ -3,10 +3,10 @@
 	"target": "/Users/xiaochengao/github/scc/build/",
 	"actions": {
 		"combine-modules": {
-			"entries": ["config.js"],
-			"output": "config.js",
+			"entries": ["xxx.js"],
+			"output": "xxx.js",
 			"config_file": "config.js"
 		},
-		"compress": true
+		//"compress": true
 	}
 }
