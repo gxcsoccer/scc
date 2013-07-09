@@ -10,6 +10,7 @@
 		"copy": {
 			"input": ["./lib/sea-debug.js", "test.html"]
 		},
-		"compress": true
+		"reflector": false,
+		"compress": false
 	}
 }
