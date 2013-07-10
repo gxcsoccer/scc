@@ -1,6 +1,1 @@
-define("xxx", [ "./template/tpl.html" ], function(require) {
-    var tpl = require("./template/tpl.html");
-    console.log(tpl);
-});define('template/tpl.html', [], function() {
-	return '<ul>\n\t<li></li>\n\t<li></li>\n\t<li></li>\n\t<li></li>\n\t<li></li>\n</ul>';
-});
+define("0",["1"],function(require){var e=require("./template/tpl.html");console.log(e)}),define("1",[],function(){return"<ul>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n	<li></li>\n</ul>"});

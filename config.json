@@ -10,7 +10,11 @@
 		"copy": {
 			"input": ["./lib/sea-debug.js", "test.html"]
 		},
-		"reflector": false,
-		"compress": false
+		"reflector": {
+			"entries": ["xxx.js"],
+			"output": "xxx.js",
+			"config_file": "config.js"
+		},
+		"compress": true
 	}
 }
